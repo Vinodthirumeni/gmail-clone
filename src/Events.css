@@ -1,0 +1,11 @@
+.events {
+  flex: 0.5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.events > img {
+  width: 20px;
+}

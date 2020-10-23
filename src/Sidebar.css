@@ -1,0 +1,184 @@
+.sideBar {
+  color: white;
+  padding: 10px;
+  /*height: 100vh;*/
+}
+.sideBar__mainComponentsAttrs {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 8px 0 26px;
+  font-size: 0.875rem;
+}
+
+.sideBar__mainComponentsAttrs .MuiSvgIcon-root {
+  margin-right: 10px;
+  font-size: 0.875rem;
+  color: #c6c6c6;
+}
+
+.sideBar__mainComponentsAttrsCompose {
+  display: flex;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  color: #3c4043;
+  height: 48px;
+  min-width: 56px;
+  margin: 15px auto;
+}
+
+.sideBar__mainComponentsAttrsCompose .MuiSvgIcon-root {
+  background-color: inherit;
+  margin: 0px 15px;
+  font-size: 40px;
+}
+
+.sideBar__mainComponentsAttrsCompose > p {
+  background-color: inherit;
+}
+
+.sideBar__mainComponentsAttrs:hover {
+  background-color: #474747;
+  border-radius: 24px;
+}
+
+.sideBar__mainComponentsAttrs:hover .MuiSvgIcon-root {
+  background: #474747;
+}
+
+.sideBar__mainComponentsAttrs:hover > p {
+  background: #474747;
+}
+
+.sideBar__mainComponentsAttrs .active {
+  background-color: #474747;
+  border-radius: 24px;
+}
+
+.active .MuiSvgIcon-root {
+  background: #474747;
+}
+
+.active > p {
+  background: #474747;
+}
+
+.active {
+  background: #474747;
+  border-radius: 24px;
+}
+
+.sideBar__mainComponentsAttrsContainer {
+  height: 30vh;
+  overflow: scroll;
+  width: 230px;
+  border-bottom: 1px solid #474747;
+}
+
+.sideBar__mainComponentsAttrs__Meet {
+  border-bottom: 1px solid #474747;
+}
+
+.sideBar__mainComponentsAttrs__Meet .sideBar__mainComponentsAttrs {
+  margin-bottom: 5px;
+}
+
+.sideBar__mainComponentsAttrs__Meet > p {
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sideBar__mainComponentsAttrs__hangouts__Container {
+  border-bottom: 1px solid #474747;
+}
+
+.sideBar__mainComponentsAttrs__hangouts__Container > p {
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sideBar__mainComponentsAttrs__hangouts {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.sideBar__mainComponentsAttrs__hangouts__Right .MuiAvatar-colorDefault {
+  margin-bottom: 5px;
+}
+
+.sideBar__mainComponentsAttrs__hangouts__Right > p {
+  margin-left: 5px;
+}
+
+.sideBar__mainComponentsAttrs__hangouts__Left {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.sideBar__mainComponentsAttrs__hangouts__Right {
+  display: flex;
+  align-items: center;
+}
+
+.sideBar__mainComponentsAttrs__hangouts__Chat {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.sideBar__mainComponentsAttrs__hangouts__Chat_StartChat {
+  color: #a1b1cd;
+  margin-bottom: 5px;
+}
+
+.sideBar__mainComponentsAttrs__Footer {
+  color: #c6c6c6;
+  display: flex;
+  justify-content: center;
+}
+
+.sideBar__mainComponentsAttrs__FooterIcon {
+  border-top: 1px solid #474747;
+  position: fixed;
+  bottom: 0;
+}
+.sideBar__mainComponentsAttrs__FooterIcon .MuiSvgIcon-root {
+  margin-left: 5px;
+}
+
+
+
+
+.sideBar__mainComponentsAttrs .sideBar__mainComponentsAttrs_MainCollapse .MuiSvgIcon-root {
+  font-size: 20px;
+  margin-left: -30px;
+}
+
+.sideBar__mainComponentsAttrs:hover .sideBar__mainComponentsAttrs_MainCollapse .MuiSvgIcon-root {
+  background: #474747;
+}
+
+
+.sideBar__mainComponentsAttrs_ChildCollapse{
+margin-left: 20px
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sideBar__mainComponentsAttrsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.sideBar__mainComponentsAttrsContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
