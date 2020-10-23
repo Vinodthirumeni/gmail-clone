@@ -77,25 +77,28 @@ DELETE UNWANTED STUFFS FROM PROJECT FOLDER : Delete unwanted files and thier dep
 delete app.test.js,logo.svg,setuptests.js and delete that dependencies in App.js as well
 
 3rd PARTY PLUGIN
-  Install Material UI(For fonts,style)
-    npm install @material-ui/core
-    npm install @material-ui/icons
 
-  Install react tooltip DOM(For tooltip)
-    npm i react-tooltip
+    Install Material UI(For fonts,style)
+      npm install @material-ui/core
+      npm install @material-ui/icons
+
+    Install react tooltip DOM(For tooltip)
+      npm i react-tooltip
 
 DATABASE & DEPLOYMENT
-  > npm i firebase
-  > npm install -g firebase-tools
-  > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
-  > Enable firebase storage
-  > Enable firebase firestore
-  > firebase login
-  > firebase init
-  > Hosting -> Use Exiting project ->(pick the project name)
-  > insted of public give build
-  > Single page application? -> y
-  > npm run build(in future any chnages in the code means we have to use this again)
-  > firebase deploy
+      > npm i firebase
+      > npm install -g firebase-tools
+      > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
+      > Enable firebase storage
+      > Enable firebase firestore
+      > firebase login
+      > firebase init
+      > Hosting -> Use Exiting project ->(pick the project name)
+      > insted of public give build
+      > Single page application? -> y
+      > npm run build(in future any chnages in the code means we have to use this again)
+      > firebase deploy
 
 Note: npm i firebase (If not working try this and continue npm cache clean --force)
+
+Live Link : https://clone-9775a.web.app/
